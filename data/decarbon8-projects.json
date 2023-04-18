@@ -1,0 +1,209 @@
+[
+    {
+        "name": "Serious Games for Serious Energy Solutions: A Case Study of Diversity for Innovation in Bradford",
+        "lead": "Zoe Harris",
+        "university": "University of Surrey",
+        "url": "https://decarbon8.org.uk/serious-games-for-serious-energy-solutions",
+        "city": "Bradford",
+        "county": "West Yorkshire",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKE41"
+        ]
+    },
+    {
+        "name": "VITALISE - Visualising actIve TrAveL wIth pakiStani familiEs in Bradford",
+        "lead": "Zahara Batool",
+        "university": "University of Leeds",
+        "url": "https://decarbon8.org.uk/visualising-active-travel-with-pakistani-families-in-bradford/",
+        "city": "Bradford",
+        "county": "West Yorkshire",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKE41"
+        ]
+    },
+    {
+        "name": "Decarbonising Transport with Neighbourhood Plans in Northern England",
+        "lead": "Caglar Koksal",
+        "university": "University of Manchester",
+        "url": "https://decarbon8.org.uk/decarbonising-transport-with-neighbourhood-planning/",
+        "city": "Carnforth",
+        "county": "Lancashire",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKD43"
+        ]
+    },
+    {
+        "name": "Hydrogen for Sustainable Waterways",
+        "lead": "Denes Csala",
+        "university": "Lancaster University",
+        "url": "https://decarbon8.org.uk/hydrogen-for-sustainable-waterways/",
+        "city": "Lake District",
+        "county": "Cumbria",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKD1"
+        ]
+    },
+    {
+        "name": "Development of a co-designed zero-carbon urban freight system",
+        "lead": "Daniela Paddeu",
+        "university": "University of the West of England",
+        "url": "https://decarbon8.org.uk/developing-a-co-designed-zero-carbon-urban-freight-system/",
+        "city": "Leeds",
+        "county": "West Yorkshire",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKE42",
+            "UKD72",
+            "UKD3",
+            "UKE32"
+        ]
+    },
+    {
+        "name": "Co-designing the 15-minute city",
+        "lead": "Alexander Nurse",
+        "university": "University of Liverpool",
+        "url": "https://decarbon8.org.uk/co-designing-the-15-minute-city/",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKD72"
+        ]
+    },
+    {
+        "name": "Liveable Liverpool City Region",
+        "lead": "Richard Dunning",
+        "university": "University of Liverpool",
+        "url": "https://decarbon8.org.uk/liveable-liverpool-city-region/",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "country": "UK",
+        "territory": "Liverpool City Region",
+        "NUTS": [
+            "UKD7"
+        ]
+    },
+    {
+        "name": "CARGO PEDAL: Harnessing the potential of e-cargo bikes for urban sustainable transport  ",
+        "lead": "Luke Blazejewski",
+        "university": "University of Salford",
+        "url": "https://decarbon8.org.uk/e-cargo-bikes/",
+        "city": "Manchester",
+        "county": "Greater Manchester",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKD3"
+        ]
+    },
+    {
+        "name": "OPTIC - Operation and Performance of Transport Infrastructure Chargepoints",
+        "lead": "Craig Morton",
+        "university": "Loughborough University",
+        "url": "https://decarbon8.org.uk/operation-and-performance-of-transport-infrastructure-chargepoints/",
+        "city": "Manchester",
+        "county": "Greater Manchester",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKD3"
+        ]
+    },
+    {
+        "name": "Room to Move – impacts of road-space reallocation (REMODEL)",
+        "lead": "Stephen Parkes",
+        "university": "Sheffield Hallam University",
+        "url": "https://decarbon8.org.uk/room-to-move-impacts-of-road-space-reallocation/",
+        "city": "Sheffield",
+        "county": "South Yorkshire",
+        "country": "UK",
+        "territory": "",
+        "NUTS": [
+            "UKE32"
+        ]
+    },
+    {
+        "name": "CarbonFreePorts: Freeports as opportunities, not threats, for place-based decarbonisation of transport",
+        "lead": "Matthew Cotton & David Tyfield",
+        "university": "Teesside University & Lancaster University",
+        "url": "https://decarbon8.org.uk/carbonfreeports-report/",
+        "city": "Teesside",
+        "county": "",
+        "country": "UK",
+        "territory": "CarbonFreeports",
+        "NUTS": [
+            "UKC1",
+            "UKD7"
+        ]
+    },
+    {
+        "name": "Integrating embodied carbon emissions into northern transport infrastructure scenarios",
+        "lead": "",
+        "university": "",
+        "url": "https://decarbon8.org.uk/integrating-embodied-carbon-into-transport-infrastructure-scenarios/",
+        "city": "",
+        "county": "North West",
+        "country": "UK",
+        "territory": "North of England",
+        "NUTS": [
+            "UKC",
+            "UKD",
+            "UKE"
+        ]
+    },
+    {
+        "name": "Leading the way to lower carbon transport: how, when and why do older, more experienced drivers make a change?",
+        "lead": "Julie Clark",
+        "university": "University of the West of Scotland",
+        "url": "https://decarbon8.org.uk/reducing-car-use-amongst-older-drivers/",
+        "city": "",
+        "county": "North West",
+        "country": "UK",
+        "territory": "North of England",
+        "NUTS": [
+            "UKC",
+            "UKD",
+            "UKE"
+        ]
+    },
+    {
+        "name": "UnCCUT -  Understanding Change in Car Use over Time",
+        "lead": "Malcolm Morgan",
+        "university": "University of Leeds",
+        "url": "https://decarbon8.org.uk/unccut-understanding-change-in-car-use-over-time/",
+        "city": "",
+        "county": "",
+        "country": "UK",
+        "territory": "North of England",
+        "NUTS": [
+            "UKC",
+            "UKD",
+            "UKE"
+        ]
+    },
+    {
+        "name": "Understanding and modelling electric vehicle charging behaviour using choice modelling",
+        "lead": "Trivikram Dokka",
+        "university": "Lancaster University",
+        "url": "https://decarbon8.org.uk/understanding-electric-vehicle-charging-behaviours/",
+        "city": "",
+        "county": "",
+        "country": "UK",
+        "territory": "North of England",
+        "NUTS": [
+            "UKD1",
+            "UKD6",
+            "UKC14"
+        ]
+    }
+]
