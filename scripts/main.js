@@ -19,11 +19,12 @@ map.on('click', e => {
 });
 var projects = [];
 var regions = {};
-getFile( 'https://https://peteredwards.github.io/dc8-project-map/data/decarbon8-projects.json', function( data ) {
+getFile( 'https://peteredwards.github.io/dc8-project-map/data/decarbon8-projects.json', function( data ) {
 	var projects = JSON.parse(data);
-    getFile( 'https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/eurostat/ew/nuts3.json', function( data ) {
+    getFile( 'https://peteredwards.github.io/dc8-project-map/data/nuts.json', function( data ) {
 	    var regions = JSON.parse(data);
         console.log(projects);
+        console.log(regions);
     });
 });
 function getFile( url, callback ) {
