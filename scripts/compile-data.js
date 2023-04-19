@@ -10,16 +10,20 @@ if (files.length) {
     var used_nuts = [];
     files.forEach( filename => {
         if ( filename !== '.' && filename !== '..' ) {
-            if ( filename.indexOf('nuts') !== -1 ) {
+            if ( filename.match(/^nuts[1-3]\.json$/) ) {
                 let jsonfile = fs.readFileSync( path.resolve( __dirname, '../data/', filename ) );
                 let jsonobj  = JSON.parse(jsonfile);
                 jsonobj.features.forEach( fobj => {
                     if ( fobj.properties ) {
-                        if ( fobj.properties.NUTS112CD ) {
+                        fobj.properties.name = '';
+                        if ( fobj.properties.NUTS112CD && fobj.properties.NUTS112NM ) {
+                            fobj.properties.name = fobj.properties.NUTS112NM;
                             nuts[fobj.properties.NUTS112CD] = fobj;
-                        } else if ( fobj.properties.NUTS212CD ) {
+                        } else if ( fobj.properties.NUTS212CD && fobj.properties.NUTS212NM ) {
+                            fobj.properties.name = fobj.properties.NUTS212NM;
                             nuts[fobj.properties.NUTS212CD] = fobj;
-                        } else if ( fobj.properties.NUTS312CD ) {
+                        } else if ( fobj.properties.NUTS312CD && fobj.properties.NUTS312NM ) {
+                            fobj.properties.name = fobj.properties.NUTS312NM;
                             nuts[fobj.properties.NUTS312CD] = fobj;
                         }
                     }
@@ -38,9 +42,9 @@ if (files.length) {
             }
         }
     });
-    nutsjson = [];
+    nutsjson = {};
     used_nuts.forEach( nut => {
-        nutsjson.push( nuts[nut] );
+        nutsjson[nut] = nuts[nut];
     });
     fs.writeFileSync(path.resolve(__dirname, '../data/nuts.json'), JSON.stringify(nutsjson), err => {
         if (err) {

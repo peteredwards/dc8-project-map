@@ -25,6 +25,22 @@ getFile( 'https://peteredwards.github.io/dc8-project-map/data/decarbon8-projects
 	    var regions = JSON.parse(data);
         console.log(projects);
         console.log(regions);
+        projects.forEach( p => {
+            p.areaLayers = [];
+            p.regionNames = [];
+            p.NUTS.forEach( nutid => {
+                if ( regions[nutid] ) {
+                    p.areaLayers.push( regions[nutid] );
+                    p.regionsNames.push( regions[nutid].properties.name );
+                }                
+            })
+            let p_layer = L.geoJSON( p.areaLayers, {
+                style: function() {
+                    color: p.colour;
+                }
+            }).addTo(map);
+
+        })
     });
 });
 function getFile( url, callback ) {
