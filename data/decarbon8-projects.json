@@ -8,6 +8,7 @@
         "county": "West Yorkshire",
         "country": "UK",
         "territory": "",
+        "colour": "#fe0000",
         "NUTS": [
             "UKE41"
         ]
@@ -21,6 +22,7 @@
         "county": "West Yorkshire",
         "country": "UK",
         "territory": "",
+        "colour": "#800001",
         "NUTS": [
             "UKE41"
         ]
@@ -34,6 +36,7 @@
         "county": "Lancashire",
         "country": "UK",
         "territory": "",
+        "colour": "#fe6a00",
         "NUTS": [
             "UKD43"
         ]
@@ -47,6 +50,7 @@
         "county": "Cumbria",
         "country": "UK",
         "territory": "",
+        "colour": "#803400",
         "NUTS": [
             "UKD1"
         ]
@@ -60,6 +64,7 @@
         "county": "West Yorkshire",
         "country": "UK",
         "territory": "",
+        "colour": "#ffd800",
         "NUTS": [
             "UKE42",
             "UKD72",
@@ -76,6 +81,7 @@
         "county": "Merseyside",
         "country": "UK",
         "territory": "",
+        "colour": "#806b00",
         "NUTS": [
             "UKD72"
         ]
@@ -89,6 +95,7 @@
         "county": "Merseyside",
         "country": "UK",
         "territory": "Liverpool City Region",
+        "colour": "#00fe21",
         "NUTS": [
             "UKD7"
         ]
@@ -102,6 +109,7 @@
         "county": "Greater Manchester",
         "country": "UK",
         "territory": "",
+        "colour": "#007f0e",
         "NUTS": [
             "UKD3"
         ]
@@ -115,6 +123,7 @@
         "county": "Greater Manchester",
         "country": "UK",
         "territory": "",
+        "colour": "#0094fe",
         "NUTS": [
             "UKD3"
         ]
@@ -128,6 +137,7 @@
         "county": "South Yorkshire",
         "country": "UK",
         "territory": "",
+        "colour": "#00497e",
         "NUTS": [
             "UKE32"
         ]
@@ -141,6 +151,7 @@
         "county": "",
         "country": "UK",
         "territory": "CarbonFreeports",
+        "colour": "#0026ff",
         "NUTS": [
             "UKC1",
             "UKD7"
@@ -155,6 +166,7 @@
         "county": "North West",
         "country": "UK",
         "territory": "North of England",
+        "colour": "#001280",
         "NUTS": [
             "UKC",
             "UKD",
@@ -170,6 +182,7 @@
         "county": "North West",
         "country": "UK",
         "territory": "North of England",
+        "colour": "#b100fe",
         "NUTS": [
             "UKC",
             "UKD",
@@ -185,6 +198,7 @@
         "county": "",
         "country": "UK",
         "territory": "North of England",
+        "colour": "#590080",
         "NUTS": [
             "UKC",
             "UKD",
@@ -200,6 +214,7 @@
         "county": "",
         "country": "UK",
         "territory": "North of England",
+        "colour": "#ff6037",
         "NUTS": [
             "UKD1",
             "UKD6",
